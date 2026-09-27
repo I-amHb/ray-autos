@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Tailwind CSS v4 directive; it is intentionally not a standard CSS at-rule. */
+/* stylelint-disable at-rule-no-unknown */
+@theme {
+  /* Fonts/Typography */
+  --font-weight-Exbold: 700;
+  --font-weight-bold: 600;
+  --font-weight-medium: 500;
+  --font-weight-lidium: 400;
+  --font-weight-light: 300;
+
+  --text-xl: 55px;
+  --text-lar: 35px;
+  --text-mid: 25px;
+  --text-sm: 16px;
+  /* --text-sm: 8px; */
+
+  /* Color/Theme */
+  --color-primary: #DC2626;
+  --color-secondary: #191A23;
+  --color-secLight: #292A32;
+  --color-tertiary: #F3F3F3;
+
+  /* Spacing */
+
+  --spacing-padding-lg: 75px;
+  --spacing-padding-md: 62px;
+  --spacing-padding-smid: 42px;
+  --spacing-padding-sm: 22px;
+
+  /* Breakpoints */
+
+  --breakpoint-Smobile: 320px;
+  --breakpoint-Mmobile: 375px;
+  --breakpoint-Lmobile: 425px;
+  --breakpoint-Stablet: 764px;
+  --breakpoint-desktop: 1024px;
+  --breakpoint-Ldesktop: 1440px;
+}
+/* stylelint-enable at-rule-no-unknown */
